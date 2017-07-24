@@ -6,10 +6,10 @@
 
 ## Install
 
-Add `hyper-qing` to the plugins list in your `~/.hyper.js` config file and restart Hyper:
+Add `hyper-qing-theme` to the plugins list in your `~/.hyper.js` config file and restart Hyper:
 
 ```
-plugins: ['hyper-qing'],
+plugins: ['hyper-qing-theme'],
 ```
 
 ## Setting

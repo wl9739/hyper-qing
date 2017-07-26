@@ -12,10 +12,6 @@ exports.decorateConfig = config => {
     const QingConfig = config.QingTheme;
     let ThemeBackground = `rgba(52, 52, 52, 1)`;
 
-    exports.onWindow = (browserWindow) => {
-        browserWindow.setVibrancy(QingConfig.hasOwnProperty('vibrancy') ? QingConfig.vibrancy : 'dark');
-    };
-
     // custom
     if (typeof QingConfig !== 'undefined') {
         exports.onWindow = (browserWindow) => {

@@ -24,7 +24,7 @@ colors: {
 QingTheme: {
     // Set background opacity, useful when vibrance is enabled
     // OPTIONS: From 0.1 to 1
-    backgroundOpacity: '0.6',
+    backgroundOpacity: '0.2',
 
     // Mac Only. Need restart. Enable the vibrance and blurred background
     // OPTIONS: 'dark', 'ultra-dark', 'bright'
